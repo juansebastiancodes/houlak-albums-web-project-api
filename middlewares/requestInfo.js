@@ -1,3 +1,5 @@
+/* eslint-disable-next-line */
+const { sequelize } = require('../models/index');
 const RequestInfo = require('../models/requestInfo');
 const saveInfo = async (req, res, next) => {
     try {
