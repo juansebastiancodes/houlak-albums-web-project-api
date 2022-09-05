@@ -1,0 +1,36 @@
+{
+  "name": "houlak-albums-web-project-api",
+  "version": "1.0.0",
+  "description": "Api where you can consult the albums of an artist ordered by popularity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juansebastiancodes/houlak-albums-web-project-api.git",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juansebastiancodes/houlak-albums-web-project-api/issues"
+  },
+  "homepage": "https://github.com/juansebastiancodes/houlak-albums-web-project-api#readme",
+  "dependencies": {
+    "axios": "0.27.2",
+    "cors": "2.8.5",
+    "dotenv": "16.0.2",
+    "eslint": "8.23.0",
+    "express": "4.18.1",
+    "helmet": "6.0.0",
+    "pg": "8.8.0",
+    "sequelize": "6.21.4"
+  },
+  "devDependencies": {
+    "eslint": "7.25.0",
+    "nodemon": "^2.0.19"
+  }
+}
