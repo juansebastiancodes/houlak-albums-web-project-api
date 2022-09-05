@@ -28,7 +28,7 @@ app.use((error, req, res, _) => {
     });
 });
 
-const server = app.listen(config.port);
+const server = app.listen(process.env.PORT || config.port);
 
 module.exports = server;
 module.exports.stop = () => { server.close(); };
